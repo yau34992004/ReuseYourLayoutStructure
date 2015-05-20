@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:windowNoTitle">true</item>
+
+        <item name="windowActionBar">false</item>
+
+        <item name="colorPrimary">@color/primary_red</item>
+
+        <item name="colorPrimaryDark">@color/primary_dark_red</item>
+
+        <item name="colorAccent">@color/primary_accent_blue</item>
+
+
+        <item name="android:windowBackground">@android:color/white</item>
+
+    </style>
+
+</resources>
