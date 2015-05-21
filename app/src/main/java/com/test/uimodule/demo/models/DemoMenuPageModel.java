@@ -1,4 +1,4 @@
-package com.test.uimodule.demo;
+package com.test.uimodule.demo.models;
 
 import android.support.v4.app.Fragment;
 

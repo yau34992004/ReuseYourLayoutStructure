@@ -1,7 +1,8 @@
-package com.test.uimodule.demo;
+package com.test.uimodule.demo.models;
 
 import android.support.v7.widget.RecyclerView;
 
+import com.test.uimodule.demo.DemoAdapter;
 import com.test.uimodule.sample.core.VerticalRecyclerModel;
 
 /**

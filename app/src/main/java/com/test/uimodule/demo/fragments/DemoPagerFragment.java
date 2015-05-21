@@ -2,7 +2,7 @@ package com.test.uimodule.demo.fragments;
 
 import com.test.uimodule.sample.PagerFragment;
 import com.test.uimodule.sample.core.MultiTabModel;
-import com.test.uimodule.demo.DemoPagerModel;
+import com.test.uimodule.demo.models.DemoPagerModel;
 
 /**
  * Created by rex.yau on 5/20/2015.

@@ -3,7 +3,7 @@ package com.test.uimodule.demo.fragments;
 import android.os.Bundle;
 
 import com.test.uimodule.demo.DemoAdapter;
-import com.test.uimodule.demo.DemoVerticalRecyclerModel;
+import com.test.uimodule.demo.models.DemoVerticalRecyclerModel;
 import com.test.uimodule.sample.VerticalRecyclerFragment;
 import com.test.uimodule.sample.core.VerticalRecyclerModel;
 

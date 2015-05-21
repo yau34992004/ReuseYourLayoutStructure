@@ -2,7 +2,7 @@ package com.test.uimodule.demo.activities;
 
 import com.test.uimodule.sample.LeftMenuPageActivity;
 import com.test.uimodule.sample.core.LeftMenuModel;
-import com.test.uimodule.demo.DemoMenuPageModel;
+import com.test.uimodule.demo.models.DemoMenuPageModel;
 
 /**
  * Created by rex.yau on 5/20/2015.
