@@ -4,12 +4,12 @@ import android.support.v4.app.Fragment;
 
 import com.test.uimodule.demo.fragments.DemoMenuFragment;
 import com.test.uimodule.demo.fragments.DemoPageFragment;
-import com.test.uimodule.sample.core.MultiMenuModel;
+import com.test.uimodule.sample.core.LeftMenuModel;
 
 /**
  * Created by rex.yau on 5/20/2015.
  */
-public class MultipleMenuPageModel implements MultiMenuModel {
+public class DemoMenuPageModel implements LeftMenuModel {
 
     @Override
     public Fragment provideMenu() {

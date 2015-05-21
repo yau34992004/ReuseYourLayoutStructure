@@ -5,7 +5,7 @@ import android.support.v4.app.Fragment;
 /**
  * Created by rex.yau on 5/20/2015.
  */
-public interface MultiMenuModel {
+public interface LeftMenuModel {
     Fragment provideMenu();
     Fragment provideContent();
 

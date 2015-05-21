@@ -1,16 +1,16 @@
 package com.test.uimodule.demo.activities;
 
-import com.test.uimodule.sample.MultiMenuPageActivity;
-import com.test.uimodule.sample.core.MultiMenuModel;
-import com.test.uimodule.demo.MultipleMenuPageModel;
+import com.test.uimodule.sample.LeftMenuPageActivity;
+import com.test.uimodule.sample.core.LeftMenuModel;
+import com.test.uimodule.demo.DemoMenuPageModel;
 
 /**
  * Created by rex.yau on 5/20/2015.
  */
-public class SecondDemoPageActivity extends MultiMenuPageActivity {
+public class SecondDemoPageActivity extends LeftMenuPageActivity {
 
     @Override
-    protected MultiMenuModel getModel() {
-        return new MultipleMenuPageModel();
+    protected LeftMenuModel getModel() {
+        return new DemoMenuPageModel();
     }
 }
