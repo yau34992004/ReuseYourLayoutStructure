@@ -4,23 +4,23 @@ import android.support.v4.app.Fragment;
 
 import com.test.uimodule.boilerplate.SinglePageActivity;
 import com.test.uimodule.boilerplate.core.SinglePageModel;
-import com.test.uimodule.demo.fragments.DemoPagerFragment;
+import com.test.uimodule.demo.fragments.DemoHorGridFragment;
 
 /**
- * Created by rex.yau on 5/20/2015.
+ * Created by rex.yau on 5/28/2015.
  */
-public class ThirdDemoActivity extends SinglePageActivity {
+public class FifthDemoActivity extends SinglePageActivity {
     @Override
     protected SinglePageModel getModel() {
         return new SinglePageModel() {
             @Override
             public Fragment provide() {
-                return new DemoPagerFragment();
+                return new DemoHorGridFragment();
             }
 
             @Override
             public String provideName() {
-                return DemoPagerFragment.class.getName();
+                return DemoHorGridFragment.class.getName();
             }
         };
     }

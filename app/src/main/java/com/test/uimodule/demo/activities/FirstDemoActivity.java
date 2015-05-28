@@ -1,7 +1,7 @@
 package com.test.uimodule.demo.activities;
 
-import com.test.uimodule.sample.core.SinglePageModel;
-import com.test.uimodule.sample.SinglePageActivity;
+import com.test.uimodule.boilerplate.core.SinglePageModel;
+import com.test.uimodule.boilerplate.SinglePageActivity;
 import com.test.uimodule.demo.models.DemoPageModel;
 
 /**

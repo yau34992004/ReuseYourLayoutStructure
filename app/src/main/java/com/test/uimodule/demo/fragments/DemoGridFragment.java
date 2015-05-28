@@ -2,17 +2,17 @@ package com.test.uimodule.demo.fragments;
 
 import android.os.Bundle;
 
-import com.test.uimodule.demo.DemoAdapter;
-import com.test.uimodule.demo.models.DemoVerticalOneColumnRecyclerModel;
 import com.test.uimodule.boilerplate.RecyclerFragment;
 import com.test.uimodule.boilerplate.core.RecyclerModel;
+import com.test.uimodule.demo.DemoAdapter;
+import com.test.uimodule.demo.models.DemoVerticalMultiColumnRecyclerModel;
 
 import java.util.ArrayList;
 
 /**
  * Created by rex.yau on 5/21/2015.
  */
-public class DemoListFragment extends RecyclerFragment<DemoAdapter> {
+public class DemoGridFragment extends RecyclerFragment<DemoAdapter> {
 
     private ArrayList<String> mArrayList;
 
@@ -38,6 +38,6 @@ public class DemoListFragment extends RecyclerFragment<DemoAdapter> {
 
     @Override
     public RecyclerModel<DemoAdapter> provideModel() {
-        return new DemoVerticalOneColumnRecyclerModel();
+        return new DemoVerticalMultiColumnRecyclerModel();
     }
 }

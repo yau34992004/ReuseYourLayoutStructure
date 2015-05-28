@@ -1,4 +1,4 @@
-package com.test.uimodule.sample;
+package com.test.uimodule.boilerplate;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -10,7 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.test.uimodule.R;
-import com.test.uimodule.sample.core.MultiTabModel;
+import com.test.uimodule.boilerplate.core.MultiTabModel;
 
 /**
  * Created by rex.yau on 5/20/2015.
@@ -30,7 +30,7 @@ public abstract class PagerFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_pager, container, false);
         mViewPager = (ViewPager) view.findViewById(R.id.pager);
         mMultiTabModel = provide();
-        mFragmentStatePagerAdapter = mMultiTabModel.provideAdapter();
+        mFragmentStatePagerAdapter = mMultiTabModel.provideAdapter(getChildFragmentManager());
         mViewPager.setAdapter(mFragmentStatePagerAdapter);
         return view;
     }

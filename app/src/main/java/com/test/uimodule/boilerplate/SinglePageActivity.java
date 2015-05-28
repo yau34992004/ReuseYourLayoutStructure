@@ -1,11 +1,11 @@
-package com.test.uimodule.sample;
+package com.test.uimodule.boilerplate;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 
 import com.test.uimodule.R;
-import com.test.uimodule.sample.core.SinglePageModel;
+import com.test.uimodule.boilerplate.core.SinglePageModel;
 
 /**
  * Created by rex.yau on 5/19/2015.

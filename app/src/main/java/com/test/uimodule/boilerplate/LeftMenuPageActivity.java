@@ -1,11 +1,11 @@
-package com.test.uimodule.sample;
+package com.test.uimodule.boilerplate;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 
 import com.test.uimodule.R;
-import com.test.uimodule.sample.core.LeftMenuModel;
+import com.test.uimodule.boilerplate.core.LeftMenuModel;
 
 /**
  * Created by rex.yau on 5/20/2015.

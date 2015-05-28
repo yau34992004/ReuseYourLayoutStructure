@@ -1,4 +1,4 @@
-package com.test.uimodule.sample.core;
+package com.test.uimodule.boilerplate.core;
 
 import android.support.v4.app.Fragment;
 

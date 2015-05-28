@@ -2,9 +2,10 @@ package com.test.uimodule.demo.models;
 
 import android.support.v4.app.Fragment;
 
+import com.test.uimodule.demo.fragments.DemoListFragment;
 import com.test.uimodule.demo.fragments.DemoMenuFragment;
 import com.test.uimodule.demo.fragments.DemoPageFragment;
-import com.test.uimodule.sample.core.LeftMenuModel;
+import com.test.uimodule.boilerplate.core.LeftMenuModel;
 
 /**
  * Created by rex.yau on 5/20/2015.
@@ -18,7 +19,7 @@ public class DemoMenuPageModel implements LeftMenuModel {
 
     @Override
     public Fragment provideContent() {
-        return new DemoPageFragment();
+        return new DemoListFragment();
     }
 
     @Override
@@ -28,6 +29,6 @@ public class DemoMenuPageModel implements LeftMenuModel {
 
     @Override
     public String provideContentName() {
-        return DemoPageFragment.class.getName();
+        return DemoListFragment.class.getName();
     }
 }
